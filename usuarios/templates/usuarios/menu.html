@@ -1,0 +1,6 @@
+<h2>Bienvenido, {{ user.username }}</h2>
+<ul>
+    <li><a href="{% url 'informacion_del_miembro' %}">Editar Información</a></li>
+    <li><a href="{% url 'eliminar_usuario' %}">Eliminar Cuenta</a></li>
+    <li><a href="{% url 'logout' %}">Cerrar Sesión</a></li>
+</ul>
